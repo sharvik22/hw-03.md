@@ -33,6 +33,17 @@
 
 ### Решение 1
 
+* Заполните файл personal.auto.tfvars. Чтобы "не светить токен" я добавил service_account_key_file = file("~/.authorized_key.json"). 
+
+![image](https://github.com/user-attachments/assets/5c6f0251-88d0-4d10-93bf-04550c657506)
+
+* Инициализируйте проект, выполните код. Он выполнится, даже если доступа к preview нет.
+
+![image](https://github.com/user-attachments/assets/991df1fc-d965-4966-af86-7a7a442ac7c7)
+
+![image](https://github.com/user-attachments/assets/f87ce876-9115-41d7-b2d0-3cf5e230ea14)
+
+![image](https://github.com/user-attachments/assets/03fe517e-f6ee-4ef9-9387-ab9fdd4673ff)
 
 ------
 
