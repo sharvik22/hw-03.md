@@ -112,7 +112,7 @@ variable "each_vm" {
 
 ![image](https://github.com/user-attachments/assets/4f488f95-d198-48ee-89be-c9f8ba3fd7e2)
 
-![image](https://github.com/user-attachments/assets/255654f8-6e09-40ce-ac3c-f516258e3750)
+![image](https://github.com/user-attachments/assets/8e0a7144-f0f1-43f5-b140-a5bd5d787ad5)
 
 ------
 
