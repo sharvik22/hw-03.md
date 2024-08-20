@@ -106,6 +106,14 @@ variable "each_vm" {
 
 ### Решение 3
 
+![image](https://github.com/user-attachments/assets/92d8b580-3e63-494e-9a02-c20c36b5887e)
+
+![image](https://github.com/user-attachments/assets/dbf9651b-3c3f-4ca6-9896-115b24ab142e)
+
+![image](https://github.com/user-attachments/assets/4f488f95-d198-48ee-89be-c9f8ba3fd7e2)
+
+![image](https://github.com/user-attachments/assets/255654f8-6e09-40ce-ac3c-f516258e3750)
+
 ------
 
 ### Задание 4
