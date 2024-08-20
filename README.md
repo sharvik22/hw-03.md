@@ -93,6 +93,10 @@ variable "each_vm" {
 
 ![image](https://github.com/user-attachments/assets/f8108f17-cfaf-4ebc-b790-31795ac7f25c)
 
+![image](https://github.com/user-attachments/assets/ae92b79b-aa1c-43c6-9809-80da5d577ab8)
+
+![image](https://github.com/user-attachments/assets/96321aee-d3d8-4c2e-816e-1c7253e1b466)
+
 ------
 
 ### Задание 3
