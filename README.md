@@ -63,6 +63,19 @@ variable "each_vm" {
 
 ### Решение 2
 
+1. Создал файл count-vm.tf,объявил переменную web_base и sec_group(группа безопасности) В файле data.tf указал образ используемой ОС. 
+   
+![image](https://github.com/user-attachments/assets/b0835111-fb8b-4dbe-997c-7abb4438e5c7)
+
+![image](https://github.com/user-attachments/assets/3db92a0b-2c8a-48bd-aeb7-262e361337d9)
+
+![image](https://github.com/user-attachments/assets/df7dfda8-9c8c-44c3-8755-1f878a5d1836)
+
+![image](https://github.com/user-attachments/assets/e22df5fc-0e59-432c-a7e5-f46a238749dd)
+
+![image](https://github.com/user-attachments/assets/ccfae0f9-c488-4f33-96eb-e38c37153c13)
+
+
 
 ------
 
