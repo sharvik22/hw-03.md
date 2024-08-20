@@ -80,8 +80,18 @@ variable "each_vm" {
 
 2. Создайте файл for_each-vm.tf. Опишите в нём создание двух ВМ для баз данных с именами "main" и "replica" ......
 
-
 ![image](https://github.com/user-attachments/assets/3be89cbd-d375-402f-baf2-3f6902d35136)
+
+
+ВМ из пункта 2.1 должны создаваться после создания ВМ из пункта 2.2. Создаются ВМ "main" и "replica" файл for_each-vm.tf, затем web-1 и web-2. В count-vm.tf добавил  параметр depends_on = [yandex_compute_instance.db_server]
+
+![image](https://github.com/user-attachments/assets/8f194893-316f-49dc-8de6-90a09d932fce)
+
+![image](https://github.com/user-attachments/assets/c713cf1b-baa5-4451-ba43-98fce3da9960)
+
+![image](https://github.com/user-attachments/assets/46f32fec-cda0-4b4f-af72-d2a03a5cf862)
+
+![image](https://github.com/user-attachments/assets/f8108f17-cfaf-4ebc-b790-31795ac7f25c)
 
 ------
 
