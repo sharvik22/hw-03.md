@@ -154,10 +154,4 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 
 ![image](https://github.com/user-attachments/assets/1912947d-b494-419d-8e6d-254ffe2c0ffd)
 
-
-
-
-
-
-
 ------
