@@ -1,20 +1,14 @@
-[webservers]
+resource "yandex_compute_instance" "vm_web" {
+  name        = "web-server"
+  fqdn        = "web-server.example.com"
+}
 
-%{~ for i in webservers ~}
-${i["name"]}   ansible_host=${i["network_interface"][0]["nat_ip_address"]}
+resource "yandex_compute_instance" "db_server" {
+  name        = "db-server"
+  fqdn        = "db-server.example.com"
+}
 
-%{~ endfor ~}
-
-[databases]
-
-%{~ for i in databases ~}
-${i["name"]}   ansible_host=${i["network_interface"][0]["nat_ip_address"]}
-
-%{~ endfor ~}
-
-[storage]
-
-%{~ for i in storage ~}
-${i["name"]}   ansible_host=${i["network_interface"][0]["nat_ip_address"]}
-
-%{~ endfor ~}
+resource "yandex_compute_instance" "storage_server" {
+  name        = "storage-server"
+  fqdn        = "storage-server.example.com"
+}
