@@ -1,0 +1,14 @@
+resource "yandex_compute_instance" "vm_web" {
+  name        = "web-server"
+  fqdn        = "web-server.example.com"
+}
+
+resource "yandex_compute_instance" "db_server" {
+  name        = "db-server"
+  fqdn        = "db-server.example.com"
+}
+
+resource "yandex_compute_instance" "storage_server" {
+  name        = "storage-server"
+  fqdn        = "storage-server.example.com"
+}
