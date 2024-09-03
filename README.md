@@ -150,8 +150,59 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 
 ### Доработка
 
-Добавил переменную fqdn в инвентарь
+Переделал все файлы согласно оставленным комментам в коммитах
 
-![image](https://github.com/user-attachments/assets/1912947d-b494-419d-8e6d-254ffe2c0ffd)
+Код отрабатывает
+
+![image](https://github.com/user-attachments/assets/39a36505-77b3-438a-af5a-946238185265)
+
+создаются в начале main и replica, затем web1 и web2
+
+web1 и web2 в группе безопасности example_dynamic, остальные в дефолтной
+
+![image](https://github.com/user-attachments/assets/bd6c34fa-208c-499a-b9ef-c89df3b52266)
+
+![image](https://github.com/user-attachments/assets/7e590a4a-8294-43f1-8fe7-12414ecb29f2)
+
+
+три диска у storage
+
+![image](https://github.com/user-attachments/assets/79beb7ab-e8d1-4e96-b188-88fb189639dc)
+
+создается файл hosts.cfg (пока вывод не очень читаемый)
+
+![image](https://github.com/user-attachments/assets/579c31ec-62ba-4590-ae4b-6dca95f650c0)
+
+
+Поправил scr/count-vm.tf (ссылка на ресурс, ранее была ошибка т.к. указывал ID группы безопасности, которая менялась каждый раз при запуске)
+
+![image](https://github.com/user-attachments/assets/34a15716-73fc-444d-8b91-b5fa5cd80ae8)
+
+Убрал весь хардкор в scr/disk_vm.tf, вынес переменные отдельно
+
+![image](https://github.com/user-attachments/assets/4dd20f6b-b5a2-4d55-8cb0-36c677e9ee09)
+
+
+файл scr/hosts.tftpl  поправил
+
+![image](https://github.com/user-attachments/assets/9a6fadf9-5087-4732-b762-68e705ed85e4)
+
+
+в scr/locals.tf вынес переменные, оставил только 
+
+![image](https://github.com/user-attachments/assets/8c56ef4f-0c1c-44d1-afc7-be2eb84e4f2a)
+
+в scr/variables.tf убрал ssh-keys и переменую безопасности 
+
+новые файлы 
+
+
+
+
+
+
+
+
+
 
 ------
